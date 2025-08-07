@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Match Scheduler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Match Data Input</h1>
+  <form id="matchForm">
+    <table>
+      <tr>
+        <th>MATCH 1</th>
+        <th>MATCH 2</th>
+        <th>MATCH 3</th>
+        <th>UR TODAYS POINT</th>
+        <th>UR YESTERDAY RECOVERY</th>
+        <th>UR TOTAL POINT</th>
+        <th>YOUR TEAM VS OPPONENT</th>
+        <th>UR INTERNATIONAL RECOGNIZATION</th>
+      </tr>
+      <tr>
+        <td><input name="match1" type="text" /></td>
+        <td><input name="match2" type="text" /></td>
+        <td><input name="match3" type="text" /></td>
+        <td><input name="todaysPoint" type="text" /></td>
+        <td><input name="yesterdayRecovery" type="text" /></td>
+        <td><input name="totalPoint" type="text" /></td>
+        <td><input name="teamVsOpponent" type="text" /></td>
+        <td><input name="internationalRecognition" type="text" /></td>
+      </tr>
+    </table>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="status"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
